@@ -1,32 +1,52 @@
-# SolidStart
+# **Coming Soon**
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+Welcome to the **Coming Soon** project, built with **SolidStart**, **Bun**, and **Tailwind CSS**! 🚀 This project is designed to create a sleek **"Coming Soon"** page with modern tools and styles.
 
-## Creating a project
+## **🚀 Getting Started**
+
+## **Install Dependencies**
+
+After setting up your project, install the necessary dependencies with:
 
 ```bash
-# create a new project in the current directory
-npm init solid@latest
+# installing project dependencies
+bun install
+```
 
-# create a new project in my-app
+### Development Server
+
+```bash
+# Start your development server with
 npm init solid@latest my-app
+
+# Or start the server and automatically open the app in your default browser
+bun dev
+
+# Or start the server and automatically open the app in your default browser
+bun dev --open
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### 🛠️ Building
 
 ```bash
-npm run dev
+# When you’re ready to build your project for production, run
+bun build
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# By default, this will generate a Node app that you can run with:
+npm bun start
 ```
 
-## Building
+## 🎨 Styling with Tailwind CSS
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+This project is styled using [Tailwind](https://tailwindcss.com/) CSS, a utility-first CSS framework for creating custom designs quickly.
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+### Tailwind Configuration
+Tailwind CSS is configured in tailwind.config.cjs. You can customize your styles and add additional utility classes as needed.
 
-## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
+## 📜 Project Overview
+
+- **Project Name**: Coming Soon
+- **Framework**: SolidStart
+- **Package Manager**: Bun
+- **Styling**: Tailwind CSS
+- **Purpose**: A sleek **"Coming Soon"** page
