@@ -7,7 +7,12 @@ interface IPageLayout extends ParentProps {
 
 export function PageLayout(props: IPageLayout) {
   return (
-    <div class={cn("flex-1 max-w-screen-2xl mx-auto w-full p-4", props.class)}>
+    <div
+      class={cn(
+        "flex-1 max-w-screen-2xl mx-auto w-full p-4 xl:p-0",
+        props.class,
+      )}
+    >
       {props.children}
     </div>
   );
